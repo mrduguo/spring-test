@@ -11,7 +11,7 @@ class SwaggerApiValidationSpec extends AbstractSpec {
     @Value('${server.contextPath:}')
     String contextPath
 
-    @Value('${server.host:localhost:8080}')
+    @Value('${api.host:localhost:8080}')
     String serverHost
 
     void "generated spec should match swagger.json"() {
