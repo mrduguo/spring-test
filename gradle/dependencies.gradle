@@ -1,5 +1,5 @@
 dependencies {
-    compile 'com.github.mrduguo.spring:spring-app:0.3.0-180319-000154-b634f35-5'
+    compile 'com.github.mrduguo.spring:spring-app:0.3.0-180320-143604-966096e-6'
     compile "org.codehaus.groovy:groovy-all:$libGroovyVersion"
     compile "org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE"
     compile 'org.spockframework:spock-spring:1.0-groovy-2.4'

@@ -1,7 +1,4 @@
-package com.github.mrduguo.spring.test.config
-
 import com.github.mrduguo.spring.app.config.EnvConfig
-import com.github.Application
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.test.SpringApplicationConfiguration
@@ -11,7 +8,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.boot.test.TestRestTemplate
 import spock.lang.Specification
 
-@SpringApplicationConfiguration(classes = Application.class)
+@SpringApplicationConfiguration(classes = App.class)
 @WebIntegrationTest
 class AbstractSpec extends Specification {
 
