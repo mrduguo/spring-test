@@ -1,3 +1,6 @@
+package com.github.mrduguo.spring.test
+
+import com.github.mrduguo.spring.app.App
 import com.github.mrduguo.spring.app.config.EnvConfig
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value

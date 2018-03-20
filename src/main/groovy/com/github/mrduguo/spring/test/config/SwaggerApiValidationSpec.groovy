@@ -1,5 +1,6 @@
 package com.github.mrduguo.spring.test.config
 
+import com.github.mrduguo.spring.test.AbstractSpec
 import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 import groovy.json.JsonSlurper

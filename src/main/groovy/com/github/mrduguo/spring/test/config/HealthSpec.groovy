@@ -1,5 +1,6 @@
 package com.github.mrduguo.spring.test.config
 
+import com.github.mrduguo.spring.test.AbstractSpec
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.HttpStatus
 
